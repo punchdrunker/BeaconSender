@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreBluetooth/CoreBluetooth.h>
 
-@interface PDViewController : UIViewController
+@interface PDViewController : UIViewController <CBPeripheralManagerDelegate>
 
 @end
